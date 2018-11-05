@@ -1,8 +1,139 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-phongvisgithubio" class="anchor" href="#phongvisgithubio" aria-hidden="true"><svg aria-hidden="true" class="octicon octicon-link" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>phongvis.github.io</h1>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='icon' href='avatar.jpg'>
+        <title>Phong Nguyen</title>
 
-<p><a href="http://phongvis.github.io/">http://phongvis.github.io/</a></p>
+        <style>
+            body {
+                max-width: 1024px;
+                margin: 10px auto; /* center whole page */
+            }
 
+            .summary {
+                text-align: center;
+            }
 
-</article>
+            .summary img {
+                width: 50px;
+                border-radius: 50%;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+
+            .summary span {
+                font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 20px;
+                font-weight: lighter;
+                color: grey;
+            }
+
+            .projects {
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .project {
+                margin: 20px auto; /* center all projects */
+                width: 300px;
+                border: 1px solid hsl(0, 0%, 80%);
+                border-radius: 5px;
+                box-shadow: 0 0 5px hsl(0, 0%, 80%);
+                display: inline-block;
+                text-decoration: none;
+            }
+
+            .project:hover {
+                border: 1px solid orangered;
+                box-shadow: 0 0 5px orangered;
+                transition: all 0.2s ease-in-out;
+            }
+
+            .project img {
+                max-width: 100%;
+                max-height: 200px;
+                display: block;
+                margin: auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            .project:hover {
+                transform: scale(1.1);
+                transition: all 0.2s ease-in-out;
+            }
+
+            .project span {
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 12px;
+                border-top: 1px solid hsl(0, 0%, 80%);
+                display: block;
+                padding: 5px;
+                color: gray;
+            }
+
+            .project span .title {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='summary'>
+            <img src='avatar.jpg'/>
+            <span>I am Phong Nguyen. Here are some of my data visualisation and machine learning projects.</span>
+        </div>
+        <div class='projects'>
+            <a class='project' href='https://www.gicentre.net/understanding2018' target='_blank' >
+                <img src='u4.png'>
+                <span><b class='title'>U4.</b> Understanding User Behaviour through Action Sequences: from the Usual to the Unusual.</span>
+            </a>
+            <a class='project' href='http://www.staff.city.ac.uk/~sbkr014/papers/VizSec_poster_2018_user_profile.pdf' target='_blank' >
+                <img src='vasabi.png'>
+                <span><b class='title'>VASABI.</b> Doing User Behaviour Analytics through Interactive Visual User Profiles.</span>
+            </a>
+            <a class='project' href='https://phongvis.github.io/viseto/demo/all' target='_blank' >
+                <img src='viseto.png'>
+                <span><b class='title'>Viseto.</b> A framework for building topic models using visualisation.</span>
+            </a>
+            <a class='project' href='https://phongvis.github.io/threadlet/demo/threadall' target='_blank' >
+                <img src='threadlet.png'>
+                <span><b class='title'>Threadlet.</b> Visual exploration of email threads.</span>
+            </a>
+            <a class='project' href='http://www.staff.city.ac.uk/~sbkr014/cow/demo/' target='_blank' >
+                <img src='cow.png'>
+                <span><b class='title'>Cow.</b> Visual analysis of cow movement patterns.</span>
+            </a>
+            <a class='project' href='http://valcri.org/' target='_blank' >
+                <img src='valcri.png'>
+                <span><b class='title'>VALCRI.</b> Visual analysis of multivariate crime data.</span>
+            </a>
+            <a class='project' href='https://phongvis.github.io/ukvac/main/' target='_blank' >
+                <img src='ukvac.png'>
+                <span><b class='title'>UKVAC.</b> A visualisation dashboard with provenance capture and restore capability.</span>
+            </a>
+            <a class='project' href='http://vis4sense.github.io/sensemap/index.html' target='_blank' >
+                <img src='sensemap.jpg'>
+                <span><b class='title'>SenseMap.</b> Supporting Browser-Based Sensemaking through Analytic Provenance.</span>
+            </a>
+            <a class='project' href='http://vis4sense.github.io/sensepath/index.html' target='_blank' >
+                <img src='sensepath.png'>
+                <span><b class='title'>SensePath.</b> Understanding the Sensemaking Process through Analytic Provenance.</span>
+            </a>
+            <a class='project' href='http://vis4sense.github.io/vast2014mc3/index.html' target='_blank' >
+                <img src='savi.png'>
+                <span><b class='title'>SAVI.</b> Social Analytics VIsulisation.</span>
+            </a>
+            <a class='project' href='http://vis4sense.github.io/timesets/index.html' target='_blank' >
+                <img src='timesets.png'>
+                <span><b class='title'>TimeSets.</b> Timeline Visualization with Set Relations.</span>
+            </a>
+            <a class='project' href='http://www.staff.city.ac.uk/~sbkr014/papers/SchemaLine.pdf' target='_blank' >
+                <img src='schemaline.png'>
+                <span><b class='title'>SchemaLine.</b> Timeline Visualization for Sensemaking.</span>
+            </a>
+        </div>
+    </body>
+</html>
