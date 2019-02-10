@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
     <head>
-        <meta charset='utf-8'>
-        <link rel='icon' href='avatar.jpg'>
+        <meta charset="utf-8" />
+        <link rel="icon" href="avatar.jpg" />
         <title>Phong Nguyen</title>
 
         <style>
@@ -27,11 +27,17 @@
                 font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
                 font-size: 20px;
                 font-weight: lighter;
-                color: grey;
+            }
+
+            .description {
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                text-align: center;
+                margin-top: 25px;
+                font-style: italic;
+                color: gray;
             }
 
             .projects {
-                margin-top: 30px;
                 display: flex;
                 flex-wrap: wrap;
             }
@@ -67,68 +73,153 @@
                 border-top: 1px solid hsl(0, 0%, 80%);
                 display: block;
                 padding: 5px;
-                color: gray;
+                color: hsl(0, 0%, 25%);
             }
 
-            .project span .title {
+            .project p {
+                margin: 0 0 5px 0;
+                font-size: 14px;
                 color: black;
+            }
+
+            .project a {
+                margin-right: 10px;
             }
         </style>
     </head>
     <body>
-        <div class='summary'>
-            <img src='avatar.jpg'/>
-            <span>I am Phong Nguyen. Here are some of my data visualisation and machine learning projects.</span>
+        <div class="summary">
+            <img src="avatar.jpg" />
+            <span
+                >I am <a href="mailto:phonghainguyen84@gmail.com" target="_top">Phong Nguyen</a>.
+                Here are some of my data visualisation and machine learning projects.</span
+            >
         </div>
-        <div class='projects'>
-            <a class='project' href='https://www.gicentre.net/understanding2018' target='_blank' >
-                <img src='u4.png'>
-                <span><b class='title'>U4.</b> Understanding User Behaviour through Action Sequences: from the Usual to the Unusual.</span>
+        <div class="description">
+            All of the following bespoke visualisations are developed using
+            <strong>D3.js</strong> (except for the very last one, SchemaLine, that I used
+            Processing). <br />For each project, I include links to resources and specify the data
+            characteristics and data mining or machine learning techniques involved.
+        </div>
+        <div class="projects">
+            <!--
+            <a
+                class="project"
+                href=""
+                target="_blank"
+            >
+                <img src="vasabi.png" />
+                <span
+                    ><b class="title">VASABI.</b> Doing User Behaviour Analytics through Interactive
+                    Visual User Profiles.</span
+                >
             </a>
-            <a class='project' href='http://www.staff.city.ac.uk/~sbkr014/papers/VizSec_poster_2018_user_profile.pdf' target='_blank' >
-                <img src='vasabi.png'>
-                <span><b class='title'>VASABI.</b> Doing User Behaviour Analytics through Interactive Visual User Profiles.</span>
+            <a class="project" href="https://phongvis.github.io/viseto/" target="_blank">
+                <img src="viseto.png" />
+                <span
+                    ><b class="title">Viseto.</b> A framework for building topic models using
+                    visualisation.</span
+                >
             </a>
-            <a class='project' href='https://phongvis.github.io/viseto/' target='_blank' >
-                <img src='viseto.png'>
-                <span><b class='title'>Viseto.</b> A framework for building topic models using visualisation.</span>
+            <a class="project" href="https://phongvis.github.io/threadlet/" target="_blank">
+                <img src="threadlet.png" />
+                <span><b class="title">Threadlet.</b> Visual exploration of email threads.</span>
             </a>
-            <a class='project' href='https://phongvis.github.io/threadlet/' target='_blank' >
-                <img src='threadlet.png'>
-                <span><b class='title'>Threadlet.</b> Visual exploration of email threads.</span>
+            <a
+                class="project"
+                href="http://www.staff.city.ac.uk/~sbkr014/cow/demo/"
+                target="_blank"
+            >
+                <img src="cow.png" />
+                <span><b class="title">Cow.</b> Visual analysis of cow movement patterns.</span>
             </a>
-            <a class='project' href='http://www.staff.city.ac.uk/~sbkr014/cow/demo/' target='_blank' >
-                <img src='cow.png'>
-                <span><b class='title'>Cow.</b> Visual analysis of cow movement patterns.</span>
+            <a class="project" href="http://valcri.org/" target="_blank">
+                <img src="valcri.png" />
+                <span
+                    ><b class="title">VALCRI.</b> Visual analysis of multivariate crime data.</span
+                >
             </a>
-            <a class='project' href='http://valcri.org/' target='_blank' >
-                <img src='valcri.png'>
-                <span><b class='title'>VALCRI.</b> Visual analysis of multivariate crime data.</span>
+            <a class="project" href="https://phongvis.github.io/ukvac/" target="_blank">
+                <img src="ukvac.png" />
+                <span
+                    ><b class="title">UKVAC.</b> A visualisation dashboard with provenance capture
+                    and restore capability.</span
+                >
             </a>
-            <a class='project' href='https://phongvis.github.io/ukvac/' target='_blank' >
-                <img src='ukvac.png'>
-                <span><b class='title'>UKVAC.</b> A visualisation dashboard with provenance capture and restore capability.</span>
+            <a
+                class="project"
+                href="http://vis4sense.github.io/sensemap/index.html"
+                target="_blank"
+            >
+                <img src="sensemap.jpg" />
+                <span
+                    ><b class="title">SenseMap.</b> Supporting Browser-Based Sensemaking through
+                    Analytic Provenance.</span
+                >
             </a>
-            <a class='project' href='http://vis4sense.github.io/sensemap/index.html' target='_blank' >
-                <img src='sensemap.jpg'>
-                <span><b class='title'>SenseMap.</b> Supporting Browser-Based Sensemaking through Analytic Provenance.</span>
+            <a
+                class="project"
+                href="http://vis4sense.github.io/sensepath/index.html"
+                target="_blank"
+            >
+                <img src="sensepath.png" />
+                <span
+                    ><b class="title">SensePath.</b> Understanding the Sensemaking Process through
+                    Analytic Provenance.</span
+                >
             </a>
-            <a class='project' href='http://vis4sense.github.io/sensepath/index.html' target='_blank' >
-                <img src='sensepath.png'>
-                <span><b class='title'>SensePath.</b> Understanding the Sensemaking Process through Analytic Provenance.</span>
+            <a
+                class="project"
+                href="http://vis4sense.github.io/vast2014mc3/index.html"
+                target="_blank"
+            >
+                <img src="savi.png" />
+                <span><b class="title">SAVI.</b> Social Analytics VIsulisation.</span>
             </a>
-            <a class='project' href='http://vis4sense.github.io/vast2014mc3/index.html' target='_blank' >
-                <img src='savi.png'>
-                <span><b class='title'>SAVI.</b> Social Analytics VIsulisation.</span>
+            <a
+                class="project"
+                href="http://vis4sense.github.io/timesets/index.html"
+                target="_blank"
+            >
+                <img src="timesets.png" />
+                <span
+                    ><b class="title">TimeSets.</b> Timeline Visualization with Set Relations.</span
+                >
             </a>
-            <a class='project' href='http://vis4sense.github.io/timesets/index.html' target='_blank' >
-                <img src='timesets.png'>
-                <span><b class='title'>TimeSets.</b> Timeline Visualization with Set Relations.</span>
-            </a>
-            <a class='project' href='https://vimeo.com/144671189' target='_blank' >
-                <img src='schemaline.png'>
-                <span><b class='title'>SchemaLine.</b> Timeline Visualization for Sensemaking.</span>
-            </a>
+            <a class="project" href="https://vimeo.com/144671189" target="_blank">
+                <img src="schemaline.png" />
+                <span
+                    ><b class="title">SchemaLine.</b> Timeline Visualization for Sensemaking.</span
+                >
+            </a> -->
         </div>
     </body>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async function() {
+            const projects = await d3.json('projects.json');
+            const container = d3.select('.projects');
+
+            projects.forEach(d => {
+                const project = container.append('div').attr('class', 'project');
+                let links = '';
+                if (d.page) links += `<a href='${d.page}' target='_blank'>website</a>`;
+                if (d.demo) links += `<a href='${d.demo}' target='_blank'>demo</a>`;
+                if (d.video) links += `<a href='${d.video}' target='_blank'>video</a>`;
+                if (d.paper) links += `<a href='${d.paper}' target='_blank'>paper</a>`;
+
+                let htmlString = `
+                    <img src='${d.name.toLowerCase()}.png'/>
+                    <span><p><b>${d.name}.</b> ${d.title}</p>${links}</span>
+                    <span>${d.data}</span>
+                `;
+
+                if (d.ml) htmlString += `<span>${d.ml}</span>`;
+
+                project.html(htmlString);
+            });
+        });
+    </script>
 </html>

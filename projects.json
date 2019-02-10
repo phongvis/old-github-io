@@ -1,0 +1,122 @@
+[
+    {
+        "name": "U4",
+        "title": "Understanding User Behaviour through Action Sequences: from the Usual to the Unusual.",
+        "data": "timestamped labelled events (application logs)",
+        "ml": "sequential pattern mining, density-based clustering",
+        "page": "https://www.gicentre.net/understanding2018",
+        "demo": "",
+        "video": "http://www.staff.city.ac.uk/cagatay.turkay.1/Resources/Papers/2018_TVCG_Understanding/final-video.mp4",
+        "paper": "http://openaccess.city.ac.uk/20108/1/2018-IEEETVCG-Nguyenetal-Understanding-User-Behaviour.pdf"
+    },
+    {
+        "name": "VASABI",
+        "title": "Doing User Behaviour Analytics through Interactive Visual User Profiles.",
+        "data": "timestamped labelled events (application logs)",
+        "ml": "user modelling, text-based clustering",
+        "page": "",
+        "demo": "",
+        "video": "",
+        "paper": "http://www.staff.city.ac.uk/~sbkr014/papers/VizSec_poster_2018_user_profile.pdf"
+    },
+    {
+        "name": "Viseto",
+        "title": "An ensemble topic modelling approach with interactive visualisation.",
+        "data": "text documents",
+        "ml": "topic modelling (LDA), word embedding (word2vec)",
+        "page": "https://phongvis.github.io/viseto/",
+        "demo": "https://phongvis.github.io/viseto/demo/all/",
+        "video": "",
+        "paper": ""
+    },
+    {
+        "name": "Threadlet",
+        "title": "A Visual Data Science Approach for Modelling Under-specified Complex Patterns through Interactive Active Learning.",
+        "data": "email messages, email threads",
+        "ml": "feature engineering, active learning, predictve modelling",
+        "page": "https://phongvis.github.io/threadlet/",
+        "demo": "https://phongvis.github.io/threadlet/demo/threadall/",
+        "video": "",
+        "paper": ""
+    },
+    {
+        "name": "Cow",
+        "title": "Visual analysis of cow movement patterns.",
+        "data": "temporal spatial data",
+        "ml": "",
+        "page": "",
+        "demo": "http://www.staff.city.ac.uk/~sbkr014/cow/demo/",
+        "video": "",
+        "paper": ""
+    },
+    {
+        "name": "VALCRI",
+        "title": "Visual analysis of crime data for supporting police investigation.",
+        "data": "multivariate data",
+        "ml": "",
+        "page": "http://valcri.org/",
+        "demo": "",
+        "video": "",
+        "paper": ""
+    },
+    {
+        "name": "UKVAC",
+        "title": "A visualisation dashboard with provenance capture and restore capability.",
+        "data": "scientific articles",
+        "ml": "",
+        "page": "https://phongvis.github.io/ukvac/",
+        "demo": "https://phongvis.github.io/ukvac/main/",
+        "video": "",
+        "paper": ""
+    },
+    {
+        "name": "SenseMap",
+        "title": "Supporting Browser-Based Sensemaking through Analytic Provenance.",
+        "data": "provenance data of web browsing",
+        "ml": "",
+        "page": "http://vis4sense.github.io/sensemap/index.html",
+        "demo": "https://chrome.google.com/webstore/detail/sensemap/agljnpanahlilmpipaeflmnjkiiecfjb",
+        "video": "https://vimeo.com/161322047",
+        "paper": "http://vis4sense.github.io/sensemap/paper.pdf"
+    },
+    {
+        "name": "SensePath",
+        "title": "Understanding the Sensemaking Process through Analytic Provenance.",
+        "data": "provenance data of web browsing",
+        "ml": "",
+        "page": "http://vis4sense.github.io/sensepath/index.html",
+        "demo": "https://chrome.google.com/webstore/detail/sensepath/dfdhiidbggkijecneejnnmbfenenkmnk",
+        "video": "https://vimeo.com/144641566",
+        "paper": "http://vis4sense.github.io/sensepath/paper.pdf"
+    },
+    {
+        "name": "SAVI",
+        "title": "Social Analytics VIsualisation.",
+        "data": "social media messages",
+        "ml": "named entity extraction, sentiment analysis",
+        "page": "http://vis4sense.github.io/vast2014mc3/index.html",
+        "demo": "http://bigdata.mdx.ac.uk:443/mc3/",
+        "video": "https://vimeo.com/144674076",
+        "paper": "http://vis4sense.github.io/vast2014mc3/paper.pdf"
+    },
+    {
+        "name": "TimeSets",
+        "title": "Timeline Visualization with Set Relations.",
+        "data": "timestamped categorical text events",
+        "ml": "",
+        "page": "http://vis4sense.github.io/timesets/index.html",
+        "demo": "http://vis4sense.github.io/timesets/demo/",
+        "video": "https://vimeo.com/144646446",
+        "paper": "http://vis4sense.github.io/timesets/paper.pdf"
+    },
+    {
+        "name": "SchemaLine",
+        "title": "Timeline Visualization for Sensemaking.",
+        "data": "timestamped text events",
+        "ml": "",
+        "page": "",
+        "demo": "https://vimeo.com/144671189",
+        "video": "https://vimeo.com/144671189",
+        "paper": "http://eprints.mdx.ac.uk/15817/1/SchemaLine.pdf"
+    }
+]
